@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 
@@ -20,6 +19,12 @@ class Program
             {
                 numbers.Add(number);
             }
+        }
+
+        if (numbers.Count == 0)
+        {
+            Console.WriteLine("No numbers were entered.");
+            return;
         }
 
         int sum = 0;
